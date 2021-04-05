@@ -1,0 +1,600 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+::selection {
+    background: #ada074;
+    color: white;
+}
+
+::-moz-selection {
+    background: #ada074;
+    color: white;
+}
+
+/* start header*/
+header {
+    height: 100vh;
+    background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/pexels-photo-443393.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header img {
+    height: 124px;
+    width: 124px;
+    margin-top: 53px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 37px;
+    letter-spacing: 6px;
+    margin-top: 51px;
+    text-transform: uppercase;
+}
+
+header span:first-of-type {
+    display: inline-block;
+    width: 115px;
+    height: 1px;
+    background-color: #ffffff;
+    border-radius: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+header p {
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+header button {
+    all: unset;
+    color: #ffffff;
+    font-size: 15px;
+    height: 46px;
+    width: 177px;
+    line-height: 46px;
+    margin-top: 71px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .6s ease-in;
+}
+
+header button:hover {
+    background-color: #ada074;
+    border: 1px solid #ada074;
+}
+
+header span:last-of-type {
+    display: block;
+    margin-top: 20px;
+}
+
+header i {
+    color: #ffffff;
+    -webkit-animation: bounce-fade 1.2s infinite;
+    -moz-animation: bounce-fade 1.2s infinite;
+    -o-animation: bounce-fade 1.2s infinite;
+    animation: bounce-fade 1.2s infinite;
+}
+
+@-webkit-keyframes bounce-fade {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 50px;
+    }
+}
+
+@-moz-keyframes bounce-fade {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 50px;
+    }
+}
+
+@-o-keyframes bounce-fade {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 50px;
+    }
+}
+
+@keyframes bounce-fade {
+    0% {
+        opacity: 0;
+        margin-top: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 50px;
+    }
+}
+
+/* end header*/
+
+/* start about*/
+/* start nav*/
+.about nav {
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.about .navbar-brand {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.about ul li {
+    text-transform: uppercase;
+    margin-left: 19px;
+    font-size: 18px;
+}
+
+.about ul li a {
+    color: #000000c4 !important;
+    transition: all .3s ease-in;
+}
+
+.about ul li a:hover {
+    color: #ada074 !important;
+}
+
+@media (max-width: 991.98px) {
+    .bg-white {
+        background-color: #ada074 !important;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgb(0 0 0 / 0%);
+        border-color: rgb(0 0 0 / 0%);
+    }
+
+    .about .navbar-brand {
+        margin-left: 17px;
+        color: #fff;
+    }
+
+    .about .navbar-brand:hover {
+
+        color: #fff;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        height: 37px;
+        width: 54px;
+    }
+
+    .about ul {
+        text-align: center;
+        background: #fff;
+    }
+
+    .about ul li {
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .navbar {
+        padding: 0rem 0rem;
+        height: 70px;
+        line-height: 60px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background: url(../img/menu-media.png) no-repeat;
+        margin-top: 19px;
+    }
+}
+
+/* end nav*/
+/* start about us*/
+.about .about-us .hed {
+    width: 300px;
+    margin: auto;
+}
+
+.about .about-us .hed h2 {
+    color: #000;
+    letter-spacing: 4px;
+    margin-top: 126px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.about .about-us .hed span {
+    display: inline-block;
+    width: 108px;
+    height: 1px;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.about .about-us .hed p {
+    color: #00000080;
+    line-height: 1.6;
+}
+
+.about .about-us .row {
+    margin-top: 100px;
+}
+
+.about .about-us .row span {
+    font-size: 38px;
+}
+
+.about .about-us .row span i {
+    color: #ada074;
+    padding: 38px;
+    border: 3px solid #f2f2f2;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.about .about-us .row span i:hover {
+    border: 3px solid #ada074;
+}
+
+.about .about-us .row h6 {
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 6px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.about .about-us .row p {
+    color: #00000080;
+    line-height: 1.6;
+}
+
+/* end about us*/
+/* end about*/
+
+/* start portfolio*/
+.portfolio {
+    background-color: #f2f2f2;
+    padding: 1px 0 98px;
+}
+
+.portfolio .hed {
+    width: 300px;
+    margin: auto;
+}
+
+.portfolio .hed h2 {
+    color: #000;
+    letter-spacing: 4px;
+    margin-top: 126px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.portfolio .hed span {
+    display: inline-block;
+    width: 108px;
+    height: 1px;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+/* Portfolio grid */
+
+.grid {
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 70px;
+    overflow: hidden;
+    margin-left: 66px;
+}
+
+.grid li {
+    width: 285px;
+    margin: 0 15px 15px 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid img {
+    width: 285px;
+    float: left;
+    position: relative;
+}
+
+.grid .text {
+    position: absolute;
+    width: 285px;
+    height: 100%;
+    background: rgba(173, 160, 116, 1);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.6s ease-in;
+}
+
+.grid .text:hover {
+    opacity: 1;
+}
+
+.grid .no-text {
+    position: absolute;
+    width: 285px;
+    height: 100%;
+    background: rgba(173, 160, 116, 0.5);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.6s ease-in;
+}
+
+.grid .no-text:hover {
+    opacity: 1;
+}
+
+.grid p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.grid p.description {
+    font-size: 12px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFF;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.portfolio button {
+    all: unset;
+    font-size: 15px;
+    height: 46px;
+    width: 177px;
+    line-height: 46px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all .6s ease-in;
+    margin-top: 13px;
+}
+
+.portfolio button:hover {
+    background-color: #ada074;
+    border: 1px solid #ada074;
+}
+
+@media (max-width: 991.98px) {
+    .grid {
+        margin-left: 0;
+    }
+}
+
+/* end portfolio*/
+/* start partners*/
+.partners {
+    background: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/pexels-photo-3805983.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 332px;
+}
+
+.partners h2 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 32px;
+    font-weight: 300;
+    padding-top: 49px;
+}
+
+.partners img {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+
+.partners img:hover {
+    opacity: 1;
+}
+
+.partners .col-3 {
+    opacity: 1;
+}
+
+.partners .row {
+    margin-top: 52px;
+}
+
+/* end partners*/
+/* start contact*/
+.contact {
+    background-color: #fff;
+}
+
+.contact .hed {
+    width: 300px;
+    margin: auto;
+}
+
+.contact .hed h2 {
+    color: #000;
+    letter-spacing: 4px;
+    margin-top: 126px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.contact .hed span {
+    display: inline-block;
+    width: 108px;
+    height: 1px;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+/* start form{*/
+.contact .row {
+    margin-top: 20px;
+    text-align: left;
+}
+
+label {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+label[class="d-block"] {
+    margin-top: 23px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    all: unset;
+    border-top: 1px solid #000;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+    height: 38px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: 1px solid #000;
+
+}
+
+input[type="submit"] {
+    all: unset;
+    text-transform: uppercase;
+    margin-top: 20px;
+    float: right;
+}
+
+.contact p {
+    font-size: 15px;
+    color: #000000bd;
+
+}
+
+.contact .p1 {
+    margin-top: 36px;
+}
+
+.contact .p2 {
+    margin-top: 36px;
+    line-height: 2;
+}
+
+.contact .p3 {
+    margin-top: 25px;
+    line-height: 2;
+}
+
+.contact h6 {
+    color: #000;
+    margin-top: 36px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.contact p span {
+    display: inline-block;
+    font-size: 15px;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+@media (max-width: 575.98px) {
+    .contact .info {
+        text-align: center;
+        margin-top: 22px;
+    }
+
+    .partners {
+        height: 375px;
+    }
+}
+
+/* end form*/
+/* end contact*/
+/* start footer*/
+footer {
+    background: #3c3c3c;
+    margin-top: 73px;
+}
+
+footer ul {
+    list-style: none;
+    padding-top: 41px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-right: 17px;
+}
+
+footer ul li a {
+    text-decoration: none !important;
+    font-size: 15px;
+    color: #a4a4a4;
+    transition: all .4s ease-in;
+}
+
+footer ul li a:hover {
+    color: #ada074;
+}
+
+footer p {
+    color: #a4a4a4;
+    font-size: 13px;
+    padding-top: 19px;
+}
+
+/* end footer*/
